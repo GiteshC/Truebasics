@@ -141,7 +141,9 @@
                 <li class="nav-item">
                     <span class="nav-link searchBox">
                         <div class="search collapsed">
-                            <input type="text" placeholder="Search">
+                            <form action="https://www.truebasics.com/searchProds">
+                            <input type="text" name="txtQ" placeholder="Search">
+                            </form>
                             <a></a>
                         </div>
                         <!-- <span class="tbs-header-icon-section pos-rel">
@@ -355,6 +357,10 @@
             $(this).parent(".search").toggleClass("searchborder");
             // (".search").addClass("searchborder");
         });
+$(".select-product").each(function(){
+    $(this).val(90);
+})
+
             $(".select-product").change(function(){
                 var product=$(this).attr("id");
 
