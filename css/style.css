@@ -41,8 +41,8 @@ nav .nav-link{position: relative;}
 .filling-border{position: absolute;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);bottom: 0;width: 0;height: 3px;background: #0cd3ff;-webkit-transition: width .28s linear;-o-transition: width .28s linear;transition: width .28s linear;}
 nav .nav-link:hover .filling-border{width: 80%;}
 .navbar-expand-lg .navbar-nav .nav-link {padding-right: 1rem;padding-left: 1rem;}
-nav .fa-bars{font-size: 24px;}
-.navbar-toggler{outline: none;}
+nav .fa-bars{font-size: 30px;}
+.navbar-toggler{outline: none;padding: 0px;}
 button:focus{outline: none;}
 .searchBox{padding-top: .2rem;}
 .searchborder{border: 1px solid #ddd;border-radius: 5px;}
