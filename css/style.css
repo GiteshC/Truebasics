@@ -49,8 +49,10 @@ button:focus{outline: none;}
 .search {width: 12em;height: 2em;padding: 0;margin: 0;line-height: 2em;position: relative;transition: all .25s linear;}
 .search input {width: 9.5em;height: 2em;line-height: 1em;padding: 0 0 0 .5em;border: none;outline: none;background-color: transparent;font-size: 1em;color: #151515;float: left;transition: all .25s linear;}
 .search a {width: 1.5em;height: 2em;line-height: 2em;padding: 0;color: #ccc;text-align: center;text-decoration: none;display: block;position: absolute;top: 0;right: 0;transition: all .25s linear;}
-.search a:before {content: "\f00d";font-family: 'Font Awesome 5 Free';font-style: normal; font-weight: 900;font-size:22px;}
-.collapsed a:before {content: "\f002";font-family: 'Font Awesome 5 Free';font-style: normal; font-weight: 900;font-size:22px;}
+/*.search a:before {content: "\f00d";font-family: 'Font Awesome 5 Free';font-style: normal; font-weight: 900;font-size:22px;}
+.collapsed a:before {content: "\f002";font-family: 'Font Awesome 5 Free';font-style: normal; font-weight: 900;font-size:22px;}*/
+.search a:before {content: "";background:url(../images/close.svg) no-repeat;width: 100%;height: 100%;display: block;background-position-y:center;}
+.collapsed a:before {content: "";background:url(../images/search.svg) no-repeat;width: 100%;height: 100%;display: block;background-position-y:center;}
 .search a:hover {color: #eee;}
 .search.collapsed {width: 2em;margin-left: 10em;}
 .search.collapsed input {width: 0;}
