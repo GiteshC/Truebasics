@@ -111,6 +111,8 @@ button:focus{outline: none;}
 .fifthSection .productHeadingnon:before{content: '';width: 20px;height: 20px;display: block;background: url(../images/nonveg.png) center center no-repeat;background-size: contain; position: absolute;left: 0;top: 40%;transform: translateY(-50%);}
 .fifthSection .productHeading{padding-left: 30px;position: relative;}
 .fifthSection .productHeading:before{content: '';width: 20px;height: 20px;display: block;background: url(../images/veg.png) center center no-repeat;background-size: contain; position: absolute;left: 0;top: 40%;transform: translateY(-50%);}
+.fifthSection .col-md-6 .row{margin: 0px;}
+
 
 /******************************* Footer Section *******************************/
 footer{background:#303030;color: #fff;padding: 30px;}
