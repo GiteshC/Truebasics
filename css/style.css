@@ -27,7 +27,9 @@ p{font-size: 20px;line-height: 26px;margin:0px;}
 .pointersList li{margin-bottom: 8px;}
 .pointersList li:before{content: '';display: block;width: 15px;height: 1px;background: #515151;position: absolute;left: 0;top: 40%;transform: translateY(-50%);}
 .cost{margin-top: 25px;}
-.cost span{text-decoration: line-through;}
+.cost select{background: transparent;border: 1px solid #ddd;padding: 5px;border-radius: 8px;outline: none;}
+.cost select:focus{outline: none;}
+.cost .astrikLink{text-decoration: line-through;}
 /*.textBoxes{padding-right: 10%;}*/
 
 /******************************* Header Section *******************************/
