@@ -63,7 +63,7 @@ button:focus{outline: none;}
 /******************************* First Section *******************************/
 .firstSection{background:#38e0ff;padding: 150px 0px 0px;position: relative;}
 .tagLine{margin-bottom: 50px;position: relative;}
-.tagLine:before{content: '';position: absolute;height: 1px;width: 60%;background:#000;bottom: -12%;left: 0;}
+.tagLine:before{content: '';position: absolute;height: 1px;width: 60%;background:#000;bottom: -25px;left: 0;}
 .bottombgfirst{position: absolute;bottom: 100px;left:0; }
 .topbgfirst{position: absolute;top: 100px;right:0;}
 .bottomImg{margin-top: 80px;}
