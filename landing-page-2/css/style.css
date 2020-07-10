@@ -154,6 +154,7 @@ footer p{margin:0px;}
 @media all and (max-width: 769px) {
   .searchBox{display: none;}
   .secondSection .media{margin-bottom: 15px;}
+  .secondSection .media:last-child{margin-bottom: 0px;}
 	h1{font-size: 30px;line-height: 36px;}
   h2{font-size: 24px;line-height: 30px;}
   h3{font-size: 22px;line-height: 26px;}
