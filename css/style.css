@@ -62,7 +62,7 @@ button:focus{outline: none;}
 
 /******************************* First Section *******************************/
 .firstSection{background:#38e0ff;padding: 150px 0px 0px;position: relative;}
-.tagLine{margin-bottom: 50px;position: relative;}
+.tagLine{margin-bottom: 50px;position: relative;margin-top: 20px;}
 .tagLine:before{content: '';position: absolute;height: 1px;width: 60%;background:#000;bottom: -25px;left: 0;}
 .bottombgfirst{position: absolute;bottom: 100px;left:0; }
 .topbgfirst{position: absolute;top: 100px;right:0;}
@@ -122,6 +122,7 @@ footer p{margin:0px;}
 @media all and (max-width: 990px) {
 }
 @media all and (max-width: 769px) {
+	.firstSection img{margin-bottom: 30px;}
 	.searchBox{display: none;}
 	h1{font-size: 32px;line-height: 38px;color: #000;margin-top: 0px;font-weight:900;}
 	h2{font-size: 24px;line-height: 30px;color: #000;}

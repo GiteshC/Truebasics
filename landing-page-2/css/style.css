@@ -75,8 +75,13 @@ button:focus{outline: none;}
 /******************************* Second Section *******************************/
 .secondSection{background:#fff;position: relative;padding: 75px 0px;}
 .slate2{position: absolute;top: 25%;right: 0%;}
-.secondSection .media{margin-bottom: 25px;}
-.secondSection h1{margin-bottom: 10px;}
+.secondSection .col-md-12{margin-bottom: 40px;}
+.secondSection h2{font-family: "Nexa-Light";}
+.secondSection h2 span{font-family: "Nexa-Book";}
+.secondSection h4{font-family: "Nexa-Light";}
+.secondSection img{margin-bottom: 30px;}
+.secondSection p{width: 80%;margin: auto;}
+
 
 /******************************* Third Section *******************************/
 .thirdSection{background:#38e0ff;position: relative;padding: 75px 0px;}
@@ -157,8 +162,10 @@ footer p{margin:0px;}
   .productHeadingnon{margin-top: 20px;}
   .secondSection h3{margin-bottom: 15px;}
   .searchBox{display: none;}
-  .secondSection .media{margin-bottom: 12px;}
-  .secondSection .media:last-child{margin-bottom: 0px;}
+  .secondSection .col-md-4{margin-bottom: 25px;}
+  .secondSection .col-md-4:last-child{margin-bottom: 0px;}
+  .thirdSection .col-md-4{margin-bottom: 25px;}
+  .thirdSection .col-md-4:last-child{margin-bottom: 0px;}
 	h1{font-size: 30px;line-height: 36px;}
   h2{font-size: 24px;line-height: 30px;}
   h3{font-size: 22px;line-height: 26px;}
