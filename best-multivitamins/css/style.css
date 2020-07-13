@@ -26,11 +26,15 @@ p{font-size: 20px;line-height: 26px;margin:0px;}
 .pointersList li{position: relative;padding-left: 25px;}
 .pointersList li{margin-bottom: 8px;}
 .pointersList li:before{content: '';display: block;width: 15px;height: 1px;background: #515151;position: absolute;left: 0;top: 40%;transform: translateY(-50%);}
-.cost{margin-top: 25px;}
+.cost{margin-top: 25px;position: relative;}
 .cost select{background: transparent;border: 1px solid #ddd;padding: 5px;border-radius: 8px;outline: none;}
 .cost select:focus{outline: none;}
-.cost .astrikLink{text-decoration: line-through;}
-/*.textBoxes{padding-right: 10%;}*/
+.cost .astrikLink{position: relative;font-size: 14px;}
+.cost .astrikLink:before{content: '';width: 100%;height: 1px;background:red;position: absolute;top: 40%;left: 0;transform: translateY(-50%);}
+.productList{list-style: none;padding: 0;margin:0;text-align:center;}
+.productList li{width: 15%;display: inline-block;}
+.productList li img{width:50px;}
+.productList li p{font-size: 16px;}
 
 /******************************* Header Section *******************************/
 header{background:#fff;position: fixed;top: 0;left: 0;right: 0;z-index: 1;}
@@ -62,6 +66,7 @@ button:focus{outline: none;}
 
 /******************************* First Section *******************************/
 .firstSection{background:#38e0ff;padding: 150px 0px 0px;position: relative;}
+.firstSection h2 span{font-family: "Nexa-Bold"}
 .tagLine{margin-bottom: 50px;position: relative;margin-top: 20px;}
 .tagLine:before{content: '';position: absolute;height: 1px;width: 60%;background:#000;bottom: -25px;left: 0;}
 .bottombgfirst{position: absolute;bottom: 100px;left:0; }
@@ -124,6 +129,7 @@ footer p{margin:0px;}
 @media all and (max-width: 769px) {
 	.firstSection img{margin-bottom: 30px;}
 	.searchBox{display: none;}
+  .productList li {width: 23%;}
 	h1{font-size: 32px;line-height: 38px;color: #000;margin-top: 0px;font-weight:900;}
 	h2{font-size: 24px;line-height: 30px;color: #000;}
   	h3{font-size: 18px;line-height: 24px;color: #000;}
