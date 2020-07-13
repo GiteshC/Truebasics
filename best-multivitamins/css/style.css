@@ -21,7 +21,7 @@ p{font-size: 20px;line-height: 26px;margin:0px;}
 /******************************* Common CSS *******************************/
 .headingSec{margin-bottom: 25px;}
 .headingSec h2{margin-bottom: 15px;}
-.ctaBtn{background:#ff7300;padding: 10px 28px;border-radius: 50px;color: #000;font-weight: bold;font-size: 20px;margin-top: 25px;display: inline-block;transition: 0.3s all ease-in-out;}
+.ctaBtn{background:#ff7300;padding: 10px 28px;border-radius: 50px;color: #000;font-family:"Nexa-Book";font-size: 20px;margin-top: 25px;display: inline-block;transition: 0.3s all ease-in-out;}
 .pointersList{list-style: none;padding: 0px;margin:20px 0px;}
 .pointersList li{position: relative;padding-left: 25px;}
 .pointersList li{margin-bottom: 8px;}
@@ -40,7 +40,7 @@ p{font-size: 20px;line-height: 26px;margin:0px;}
 /******************************* Header Section *******************************/
 header{background:#fff;position: fixed;top: 0;left: 0;right: 0;z-index: 1;}
 nav{width: 100%;}
-nav a{color: #212121;font-weight: 600;}
+nav a{color: #212121;font-family:"Nexa-Book";}
 nav a:hover{color: #212121;}
 nav .nav-link{position: relative;}
 .filling-border{position: absolute;left: 50%;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);bottom: 0;width: 0;height: 3px;background: #0cd3ff;-webkit-transition: width .28s linear;-o-transition: width .28s linear;transition: width .28s linear;}
