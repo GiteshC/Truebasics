@@ -21,7 +21,7 @@ p{font-size: 20px;line-height: 26px;margin:0px;}
 /******************************* Common CSS *******************************/
 .headingSec{margin-bottom: 25px;}
 .headingSec h2{margin-bottom: 15px;}
-.ctaBtn{padding: 10px 28px;border-radius: 50px;color: #000;font-weight: bold;font-size: 20px;margin-top: 25px;display: inline-block;transition: 0.3s all ease-in-out;}
+.ctaBtn{background:#ff7300;padding: 10px 28px;border-radius: 50px;color: #000;font-weight: bold;font-size: 20px;margin-top: 25px;display: inline-block;transition: 0.3s all ease-in-out;}
 .pointersList{list-style: none;padding: 0px;margin:20px 0px;}
 .pointersList li{position: relative;padding-left: 25px;}
 .pointersList li{margin-bottom: 8px;}
@@ -66,36 +66,38 @@ button:focus{outline: none;}
 
 
 /******************************* First Section *******************************/
-.firstSection{background:#38e0ff;padding: 150px 0px 0px;position: relative;}
+.firstSection{background:#38e0ff;padding: 120px 0px 0px;position: relative;}
 .firstSection h2 span{font-family: "Nexa-Bold"}
 .tagLine{margin-bottom: 50px;position: relative;margin-top: 20px;}
 .tagLine:before{content: '';position: absolute;height: 1px;width: 60%;background:#000;bottom: -25px;left: 0;}
 .bottombgfirst{position: absolute;bottom: 100px;left:0; }
 .topbgfirst{position: absolute;top: 100px;right:0;}
-.bottomImg{margin-top: 80px;}
+.bottomImg{margin-top: 50px;}
 
 /******************************* Second Section *******************************/
-.secondSection{background:#53e3f5;position: relative;padding: 75px 0px;}
-.secondSection .ctaBtn{background:#fff;border:3px solid #fff;}
-.secondSection .ctaBtn:hover{background:#8bd3e6;text-decoration: none;color:#000;}
+.secondSection{background:#fff;position: relative;padding: 75px 0px;}
+.secondSection .ctaBtn{background:#ff7300;border:3px solid #ff7300;}
+.secondSection .ctaBtn:hover{background:#fff;text-decoration: none;color:#ff7300;}
 .slate2{position: absolute;bottom: 12%;right: 10%;}
 
 /******************************* Third Section *******************************/
 .thirdSection{background:#f4a6d7;position: relative;padding: 75px 0px;}
-.thirdSection .ctaBtn{background:#fff;border: 3px solid #fff;}
-.thirdSection .ctaBtn:hover{background:#f4a6d7;border: 3px solid #fff;color: #000;text-decoration: none;}
+.thirdSection .ctaBtn{background:#ff7300;border: 3px solid #ff7300;}
+.thirdSection .ctaBtn:hover{background:#fff;color: #ff7300;text-decoration: none;}
 .slate3{position: absolute;top: 3%;left: 4%;}
+.thirdSection .productList li:nth-child(3){width: 10%;}
 
 /******************************* Fourth Section *******************************/
 .fourthSection{background:#c1c5c7;position: relative;padding: 75px 0px;}
-.fourthSection .ctaBtn{background:#fff;border:3px solid #fff;}
-.fourthSection .ctaBtn:hover{background:#c1c6c8;text-decoration: none;color:#000;}
+.fourthSection .ctaBtn{background:#ff7300;border:3px solid #ff7300;}
+.fourthSection .ctaBtn:hover{background:#fff;text-decoration: none;color:#ff7300;}
 .slate4{position: absolute;top: 5%;right: 3%;}
+.fourthSection .productList li:nth-child(3){width: 10%;}
 
 /******************************* Fifth Section *******************************/
 .fifthSection{background:#c4d600;position: relative;padding: 75px 0px;}
-.fifthSection .ctaBtn{background:#fff;border: 3px solid #fff;}
-.fifthSection .ctaBtn:hover{background:#c4d600;border: 3px solid #fff;color: #000;text-decoration: none;}
+.fifthSection .ctaBtn{background:#ff7300;border: 3px solid #ff7300;}
+.fifthSection .ctaBtn:hover{background:#fff;color: #ff7300;text-decoration: none;}
 .slate5{position: absolute;bottom: 10%;left: 3%;}
 
 /******************************* Footer Section *******************************/
@@ -112,10 +114,14 @@ footer p{margin:0px;}
 }
 @media all and (max-width: 1440px) {
 	h1{font-size: 36px;line-height: 42px;color: #000;margin-top: 0px;font-weight:900;}
-  	h2{font-size: 28px;line-height: 32px;color: #000;}
-  	h3{font-size: 20px;line-height: 22px;color: #000;}
-  	p{font-size: 18px;line-height: 22px;margin:0px;}
-  	.ctaBtn{padding: 8px 24px;font-size: 18px;margin-top: 20px;}
+	h2{font-size: 28px;line-height: 32px;color: #000;}
+	h3{font-size: 20px;line-height: 22px;color: #000;}
+	p{font-size: 18px;line-height: 22px;margin:0px;}
+	.ctaBtn{padding: 8px 24px;font-size: 18px;margin-top: 20px;}
+  .firstSection{padding-top: 90px;}
+  .secImg{width: 70%;}
+  .secondSection, .thirdSection, .fourthSection, .fifthSection{padding: 40px 0px;}
+  .bottomImg{margin-top: 30px;}
 }
 @media all and (max-width: 1360px) {
 }
@@ -130,8 +136,9 @@ footer p{margin:0px;}
 @media all and (max-width: 769px) {
   .prodImg{width: 100%;}
 	.firstSection img{margin-bottom: 30px;}
+  .secImg{width: 100%;}
 	.searchBox{display: none;}
-  .productList li {width: 23%;}
+  .productList li, .fourthSection .productList li, .thirdSection .productList li {width: 23%;}
 	h1{font-size: 32px;line-height: 38px;color: #000;margin-top: 0px;font-weight:900;}
 	h2{font-size: 24px;line-height: 30px;color: #000;}
   	h3{font-size: 18px;line-height: 24px;color: #000;}
