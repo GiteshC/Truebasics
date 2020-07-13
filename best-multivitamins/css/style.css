@@ -135,10 +135,11 @@ footer p{margin:0px;}
 }
 @media all and (max-width: 769px) {
   .prodImg{width: 100%;}
-	.firstSection img{margin-bottom: 30px;}
+	.bannerimg{margin-bottom: 30px;}
   .secImg{width: 100%;}
 	.searchBox{display: none;}
-  .productList li, .fourthSection .productList li, .thirdSection .productList li {width: 23%;}
+  .productList li{width: 23%;}
+  .fourthSection .productList li:nth-child(3), .thirdSection .productList li:nth-child(3){width: 20%;}
 	h1{font-size: 32px;line-height: 38px;color: #000;margin-top: 0px;font-weight:900;}
 	h2{font-size: 24px;line-height: 30px;color: #000;}
   	h3{font-size: 18px;line-height: 24px;color: #000;}
