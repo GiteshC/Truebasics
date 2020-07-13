@@ -172,7 +172,7 @@ footer p{margin:0px;}
 @media all and (max-width: 990px) {
 }
 @media all and (max-width: 769px) {
-  .firstSection img{margin-bottom: 30px;}
+  .bannerimg{margin-bottom: 30px;}
   .secImg{width: 100%;}
   .firstSection h2{font-size: 24px;line-height: 30px;}
   .productHeading{margin-top: 20px;}
@@ -184,6 +184,7 @@ footer p{margin:0px;}
   .thirdSection .col-md-4{margin-bottom: 25px;}
   .thirdSection .col-md-4:last-child{margin-bottom: 0px;}
   .productList li {width: 23%;}
+  .fourthSection .productList li:nth-child(3), .thirdSection .productList li:nth-child(3){width: 20%;}
 	h1{font-size: 30px;line-height: 36px;}
   h2{font-size: 24px;line-height: 30px;}
   h3{font-size: 22px;line-height: 26px;}
