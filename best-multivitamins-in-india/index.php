@@ -161,7 +161,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.truebasics.com/cart/cart.action?utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=Top_header_icon&utm_campaign=truebasics_mutivit_greens&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F">
+                  <a class="nav-link" href="https://www.truebasics.com/cart/cart.action?utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=Top_header_best_multivitamins_in_india&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_top_header'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18.271" viewBox="0 0 20 18.271"><g transform="translate(-586.082 -572.541)"><g transform="translate(586.082 572.541)"><path fill="#1e1e1e" d="M586.749,572.541a.687.687,0,0,0,0,1.373h2.128l2.294,11.111c.091.421.354.768.693.763h11.111a.685.685,0,0,0,0-1.37H592.406l-.285-1.37h11.74a.688.688,0,0,0,.65-.532l1.558-6.851a.724.724,0,0,0-.65-.839H590.429l-.36-1.74a.7.7,0,0,0-.655-.545Zm3.96,3.662h13.868l-1.241,5.474H591.848Zm3.38,10.047a2.282,2.282,0,1,0,2.219,2.276A2.263,2.263,0,0,0,594.088,586.25Zm6.668,0a2.282,2.282,0,1,0,2.219,2.276A2.263,2.263,0,0,0,600.756,586.25Zm-6.668,1.368a.912.912,0,1,1-.892.908A.893.893,0,0,1,594.088,587.618Zm6.668,0a.913.913,0,1,1-.886.908A.886.886,0,0,1,600.756,587.618Z" transform="translate(-586.082 -572.541)"></path></g></g></svg>
                     <span class="filling-border"></span>
                   </a>
@@ -297,12 +297,12 @@
 
                             <p class="cost">
                                 <select class="select-product" id="product-multivit-men">
-                                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_men">90 tablets</option>
-                                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_men">30 tablets</option>
+                                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_in_india_mm">90 tablets</option>
+                                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_in_india_mm">30 tablets</option>
                                 </select>
                             </p>
                             <p class="cost">Rs. <span class="product-multivit-men-price"> 1528</span> <span class="product-multivit-men-ogprice astrikLink">Rs. 1699</span></p>
-                             <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=109177&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_button&utm_campaign=truebasics_mutivit_men&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-men-href">Buy Now</a>
+                             <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=109177&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_best_multivitamins_in_india_mm&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-men-href">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -342,12 +342,12 @@
                           <p>One tablet a day,<br>after breakfast</p>
                           <p class="cost">
                               <select class="select-product" id="product-multivit-women">
-                                  <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_women">90 tablets</option>
-                                  <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_women">30 tablets</option>
+                                  <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_in_india_mv">90 tablets</option>
+                                  <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_in_india_mv">30 tablets</option>
                               </select>
                           </p>
                           <p class="cost"><span class="product-multivit-women-price">Rs. 1528</span> <span class="product-multivit-women-ogprice astrikLink">Rs. 1699</span></p>
-                          <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=112129&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_button&utm_campaign=truebasics_mutivit_women&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-women-href">Buy Now</a>
+                          <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=112129&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_best_multivitamins_in_india_mv&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-women-href">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -393,7 +393,7 @@
                               </select>
                             </p>
                             <p class="cost"><span class="product-multivit-men-50-price">Rs. 1528</span> <span class="product-multivit-men-50-ogprice astrikLink">Rs. 1699</span></p>
-                            <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=112175&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_button&utm_campaign=truebasics_mutivit_men_50_plus&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-men-50-href">Buy Now</a>
+                            <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=112175&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_best_multivitamins_in_india_mm50&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men_50_plus'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-men-50-href">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -433,7 +433,7 @@
                               </select>
                             </p>
                             <p class="cost"><span class="product-multivit-green-price">Rs. 1528</span> <span class="product-multivit-green-ogprice astrikLink">Rs. 1699</span></p>
-                           <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=109179&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_button&utm_campaign=truebasics_mutivit_greens&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-green-href">Buy Now</a>
+                           <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=109179&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_best_multivitamins_in_india_mg&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_greens'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F" class="ctaBtn product-multivit-green-href">Buy Now</a>
                         </div>
                     </div>
                 </div>
@@ -475,10 +475,12 @@
                 var ogprice=$('option:selected', this).attr("data-ogprice");
                 var price=$('option:selected', this).attr("data-price");
                 var campaign=$('option:selected', this).attr("data-campaign");
+                var medium=$('option:selected', this).attr("data-medium");
+                
                 
                 $("."+product+"-price").html(price);
                 $("."+product+"-ogprice").html(ogprice);
-                $("."+product+"-href").attr("href","https://www.truebasics.com/cart/cart.action?ampcart=true&id="+id+"&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium=buy_now_button&utm_campaign="+campaign+"&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F  ");
+                $("."+product+"-href").attr("href","https://www.truebasics.com/cart/cart.action?ampcart=true&id="+id+"&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins_in_india'); ?>&utm_medium="+medium+"&utm_campaign="+campaign+"&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins-in-india%2F  ");
             });
         })
     </script>
