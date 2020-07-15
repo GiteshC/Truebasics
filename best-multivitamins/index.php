@@ -31,6 +31,7 @@
       gtag('config', 'UA-21820217-35');
     </script>
 
+   <?php /* ?>
     <!-- Google Ads -->
     <!-- Page views event -->
     <!-- Global site tag (gtag.js) - Google Ads: 730450379 -->
@@ -87,6 +88,26 @@
           'transaction_id': ''
       });
     </script>
+<?php */ ?>
+<!-- Global site tag (gtag.js) - Google Ads: 983680310 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-983680310"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-983680310');
+</script>
+
+<!-- Event snippet for Truebasics Website Conversion conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-983680310/odeDCN_clJ8BELaKh9UD',
+      'value': 1528.0,
+      'currency': 'INR',
+      'transaction_id': ''
+  });
+</script>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -261,8 +282,8 @@
             <p>One tablet a day, after breakfast</p>
             <p class="cost">
                 <select class="select-product" id="product-multivit-men">
-                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_mm">90 tablets</option>
-                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_mm">30 tablets</option>
+                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>" data-medium="buy_now_best_multivitamins_mm">90 tablets</option>
+                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>" data-medium="buy_now_best_multivitamins_mm">30 tablets</option>
                 </select> <span class="product-multivit-men-ogprice astrikLink">Rs. 1699</span> Rs. <span class="product-multivit-men-price">1528</span></p>
                 <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=109177&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins'); ?>&utm_medium=buy_now_best_multivitamins_mm&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins%2F" class="ctaBtn product-multivit-men-href">Buy Now</a>
           </div>
@@ -291,8 +312,8 @@
             <p>One tablet a day, after breakfast</p>
             <p class="cost">
                 <select class="select-product" id="product-multivit-women">
-                    <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_mv">90 tablets</option>
-                    <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_mv">30 tablets</option>
+                    <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>" data-medium="buy_now_best_multivitamins_mv">90 tablets</option>
+                    <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>" data-medium="buy_now_best_multivitamins_mv">30 tablets</option>
                 </select> <span class="product-multivit-women-ogprice astrikLink">Rs. 1699</span> Rs. <span class="product-multivit-women-price">1528</span></p>
             <a href="https://www.truebasics.com/cart/cart.action?ampcart=true&id=112129&vId=291&utm_source=<?php echo (isset($_GET['utm_source'])?addslashes($_GET['utm_source']):'Landing_page_best_multivitamins'); ?>&utm_medium=buy_now_best_multivitamins_mv&utm_campaign=<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>&utm_content=https%3A%2F%2Ftrueshield.truebasics.com%2Fbest-multivitamins%2F" class="ctaBtn product-multivit-women-href">Buy Now</a>
           </div>

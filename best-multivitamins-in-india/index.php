@@ -30,6 +30,7 @@
       gtag('config', 'UA-21820217-35');
     </script>
 
+<?php /* ?>
     <!-- Google Ads -->
     <!-- Page views event -->
     <!-- Global site tag (gtag.js) - Google Ads: 730450379 -->
@@ -86,7 +87,26 @@
           'transaction_id': ''
       });
     </script>
+<?php */ ?>
+<!-- Global site tag (gtag.js) - Google Ads: 983680310 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-983680310"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-983680310');
+</script>
+
+<!-- Event snippet for Truebasics Website Conversion conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-983680310/odeDCN_clJ8BELaKh9UD',
+      'value': 1528.0,
+      'currency': 'INR',
+      'transaction_id': ''
+  });
+</script>
     <!-- Facebook Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -297,8 +317,8 @@
 
                             <p class="cost">
                                 <select class="select-product" id="product-multivit-men">
-                                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_in_india_mm">90 tablets</option>
-                                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_men" data-medium="buy_now_best_multivitamins_in_india_mm">30 tablets</option>
+                                    <option value="90"  data-id="109177" data-ogprice="1699" data-price="1528" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>" data-medium="buy_now_best_multivitamins_in_india_mm">90 tablets</option>
+                                    <option value="30" data-id="120247" data-ogprice="649" data-price="578" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_men'); ?>" data-medium="buy_now_best_multivitamins_in_india_mm">30 tablets</option>
                                 </select>
                             </p>
                             <p class="cost">Rs. <span class="product-multivit-men-price"> 1528</span> <span class="product-multivit-men-ogprice astrikLink">Rs. 1699</span></p>
@@ -342,8 +362,8 @@
                           <p>One tablet a day,<br>after breakfast</p>
                           <p class="cost">
                               <select class="select-product" id="product-multivit-women">
-                                  <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_in_india_mv">90 tablets</option>
-                                  <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="truebasics_mutivit_women" data-medium="buy_now_best_multivitamins_in_india_mv">30 tablets</option>
+                                  <option value="90"  data-id="112129" data-ogprice="1699" data-price="1528" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>" data-medium="buy_now_best_multivitamins_in_india_mv">90 tablets</option>
+                                  <option value="30" data-id="120249" data-ogprice="649" data-price="578" data-campaign="<?php echo (isset($_GET['utm_campaign'])?addslashes($_GET['utm_campaign']):'truebasics_multivit_women'); ?>" data-medium="buy_now_best_multivitamins_in_india_mv">30 tablets</option>
                               </select>
                           </p>
                           <p class="cost"><span class="product-multivit-women-price">Rs. 1528</span> <span class="product-multivit-women-ogprice astrikLink">Rs. 1699</span></p>
